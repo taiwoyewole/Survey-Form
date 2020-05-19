@@ -1,0 +1,82 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width", "initial-scale= 1.0">
+    <link type="text/css" rel="stylesheet" href="form.css">
+    <title>Reeglam: Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Reeglam Survey Form</h1>
+      <p id="description">
+      Thank you for taking the time to help us improve the platform
+      </p>
+      <div>
+        <form id="survey-form">
+			<p>
+				<label for="name" id="name-label">Name</label><br>
+				<input class="select" id="name"type="text" name="name" placeholder="Enter your name" required>
+			</p>
+			<p>
+				<label for="email" id="email-label">Email</label><br>
+				<input class="select" id="email"type="email" name="email" placeholder="Enter your Email" required>
+			</p>
+			<p> 
+				<label for="number" id="number-label">Age (optional)</label><br>
+				<input class="select" id="number" type="number" name="age" min="16" max="99" placeholder="Age" required>
+			</p>
+			<p>
+				Which option best describes you?<br>
+				<select id="dropdown" class="select">
+					<option value="current role">Select current role</option>
+					<option value="student">Student</option>
+					<option value="recent graduate">Recent Graduate</option>
+					<option value="full time worker">Full Time Worker</option>
+					<option value="prefer not to say">Prefer not to say</option>
+					<option value="other">Other</option>
+				</select>
+			</p>
+			<p class="choice">
+				Would you recommend freeCodeCamp to a friend?<br>
+				<input class="choice" type="radio" name="DefinitelyorMaybeorNotSure" value="Definitely">Definitely<br>
+				<input class="choice" type="radio" name="DefinitelyorMaybeorNotSure" value="Maybe">Maybe<br>
+				<input class="choice" type="radio" name="DefinitelyorMaybeorNotSure" value="Not sure">Not sure<br>
+			</p>
+			<p>
+				What is your favorite service of Reeglam?<br>
+				<select class="select">
+					<option value="select">Select an option</option>
+					<option value="Wig">Wig Making</option>
+					<option value="customization">Customization</option>
+					<option value="revamping">Hair Revamping</option>
+					<option value="styling">Hair Styling</option>
+					<option value="extensions">Hair Extensions</option>
+					<option value="delivery">Sales and Delivery</option>
+				</select>
+			</p>	
+			<p>
+				What would you like to see improved? (Check all that apply)<br>
+				<input class="choice" type="checkbox" name="services" value="Wig Making">Wig Making<br>
+				<input class="choice" type="checkbox" name="services" value="Frontal Customization">Frontal Customization<br>
+				<input class="choice" type="checkbox" name="services" value="Closure Customization">Closure Customization<br>
+				<input class="choice" type="checkbox" name="services" value="Hair Styling">Hair Styling<br>
+				<input class="choice" type="checkbox" name="services" value="Hair Revamping">Hair Revamping<br>
+				<input class="choice" type="checkbox" name="services" value="Human Hair">Human Hair<br>
+				<input class="choice" type="checkbox" name="services" value="Hair Extensions">Hair Extensions<br>
+				<input class="choice" type="checkbox" name="services" value="Sales and Delivery">Sales and Delivery
+			</p>
+			<p>
+				Any comments or suggestions?<br>
+				<textarea class="select" name="comments" rows="10" cols="40" placeholder="Enter your comment here..."></textarea>
+			</p>
+			<p>
+				<button class="select" type="submit" value="Submit" id="submit">Submit</button>
+			</p>
+		</form>
+	   </div>
+	 </main>
+	</body>
+</html>
+					

@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font: 14px Roboto, Helvetica, sans-serif;
+	background-image: URL("https://scontent.flos5-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/75226334_2728458577210692_5897023976110030848_o.jpg?_nc_cat=104&_nc_sid=8024bb&efg=eyJpIjoidCJ9&_nc_eui2=AeFVKxneITRq_icCOhg5VVM24S-XMRMf1lrhL5cxEx_WWr01Vb4K8_Rg7TA1TJaG3ogpm77YAJEeqFXIM1ZJZUwW&_nc_oc=AQkcXeJTWTvHrOPdfA60iZTueWFTRaX99vqh8GYLhHpkfokQsJA1EkEonCrHHmiN-MA&_nc_ht=scontent.flos5-1.fna&_nc_tp=14&oh=32c33332b1f260c911993ac07b6b5635&oe=5ED85D23");
+	color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+	margin: 0;
+	width: auto;
+}
+main {
+	text-align: center;
+}
+#title {
+	font-family: cursive;
+  padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#description {
+	font: 16px cursive;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+div {
+  width: fit-content;
+	margin: 0px 10px;
+    border: thin solid #9f4a68;
+    border-radius: 10px;
+    background-color: #9f4a68;
+    text-align: left;
+	opacity: 0.8;
+}
+#survey-form {
+  padding: 15px;
+}
+
+.select {
+	margin: 10px 0px;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 10px;
+}
+.choice {
+	margin: 6px 6px 6px 0px;
+}
+@media only screen
+  and (min-device-width : 768px) {
+     div {
+      width: 60%;
+      padding: 40px;
+      margin: auto;
+    }
+    #title {
+      font-size: 250%
+    }
+    #description {
+	    font-size: 25px;
+}
+}
